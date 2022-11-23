@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Tic-Tac-Toe, Player, Playing, Game" />
+    <meta
+      name="description"
+      content="Enjoy playing the classic Tic-Tac-Toe game with your friends!"
+    />
+    <meta name="author" content="Abhishek Ghodke" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/overlays.css" />
+    <link rel="stylesheet" href="./styles/configuration.css" />
+    <link rel="stylesheet" href="./styles/game.css" />
+    <script
+      src="https://kit.fontawesome.com/ccb5520c33.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./scripts/config.js" defer></script>
+    <script src="./scripts/game.js" defer></script>
+    <script src="./scripts/app.js" defer></script>
+    <title>Go Tic-Tac-Toe</title>
+  </head>
+  <body>
+    <div id="backdrop"></div>
+    <header id="main-header">
+      <div id="logo">
+        <img src="./images/favicon.ico" alt="app logo" />
+        <h1>Go Tic-Tac-Toe</h1>
+      </div>
+
+      <p>Enjoy playing the classic Tic-Tac-Toe game with your friends!</p>
+    </header>
+    <main>
+      <aside class="modal" id="config-overlay">
+        <h2>Choose your name</h2>
+        <form>
+          <div class="form-control">
+            <label for="playername">Player Name</label>
+            <input type="text" name="playername" id="playername" required />
+          </div>
+          <p id="config-errors"></p>
+          <div>
+            <button type="reset" class="btn btn-alt" id="cancel-config-btn">
+              Cancel
+            </button>
+            <button type="submit" class="btn">Confirm</button>
+          </div>
+        </form>
+      </aside>
+      <section id="game-configuration">
+        <ol>
+          <li>
+            <article id="player-1-data">
+              <h2>
+                <span>
+                  <img
+                    src="./images/gamer.png"
+                    alt="gamer"
+                    width="32px"
+                    height="32px"
+                /></span>
+                PLAYER 1
+              </h2>
+              <h3>Name</h3>
+              <p class="player-symbol">X</p>
+              <i class="fa-solid fa-square-pen"></i>
+              <button
+                class="btn btn-alt"
+                id="edit-player-1-btn"
+                data-playerid="1"
+              >
+                Edit
+              </button>
+            </article>
+          </li>
+          <li>
+            <article id="player-2-data">
+              <h2>
+                <span>
+                  <img
+                    src="./images/gamer.png"
+                    alt="gamer"
+                    width="32px"
+                    height="32px"
+                /></span>
+                PLAYER 2
+              </h2>
+              <h3>Name</h3>
+              <p class="player-symbol">O</p>
+              <i class="fa-solid fa-square-pen"></i>
+              <button
+                class="btn btn-alt"
+                id="edit-player-2-btn"
+                data-playerid="2"
+              >
+                Edit
+              </button>
+            </article>
+          </li>
+        </ol>
+        <button class="btn" id="start-game-btn">Start New Game</button>
+      </section>
+      <section id="active-game">
+        <article id="game-over">
+          <h2>
+            <span class="winner-icon"></span> You won
+            <span id="winner-name">PLAYER NAME</span>
+            <span class="winner-icon"></span>
+          </h2>
+          <p>Click "Start New Game" above, to start a new game!</p>
+        </article>
+        <p id="player-turn-text">
+          It's your turn <span id="active-player-name"></span>!
+        </p>
+        <ol id="game-board">
+          <li data-col="1" data-row="1"></li>
+          <li data-col="2" data-row="1"></li>
+          <li data-col="3" data-row="1"></li>
+
+          <li data-col="1" data-row="2"></li>
+          <li data-col="2" data-row="2"></li>
+          <li data-col="3" data-row="2"></li>
+
+          <li data-col="1" data-row="3"></li>
+          <li data-col="2" data-row="3"></li>
+          <li data-col="3" data-row="3"></li>
+        </ol>
+      </section>
+    </main>
+  </body>
+</html>
