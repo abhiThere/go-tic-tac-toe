@@ -2,6 +2,8 @@
 
 A game web application for gamers to play the classic Tic-Tac-Toe game.
 
+The web app is live at [Go Tic-Tac-Toe](https://abhithere.github.io/go-tic-tac-toe/)
+
 # 📃 Description
 
 Go Tic-Tac-Toe is a web app for gamers to enjoy playing the classic Tic-Tac-Toe game with their friends from anywhere and anytime.
