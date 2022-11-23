@@ -137,13 +137,13 @@ function endGame(winnerId) {
 
     for (const winnerIconEl of winnerIconElements) {
       winnerIconEl.innerHTML =
-        '<img src="./images/party-popper.png" alt="party popper" width="48px" height="48px"/>';
+        '<img src="../images/party-popper.png" alt="party popper" width="48" height="48"/>';
     }
   } else {
     gameOverElement.firstElementChild.innerHTML = `
     <p>
-    <span><img src="./images/game-draw.png" alt="game draw" width="48px" height="48px"/>
-    </span> It's a draw <span><img src="./images/game-draw.png" alt="game draw" width="48px" height="48px"/></span>
+    <span><img src="../images/game-draw.png" alt="game draw" width="48" height="48"/>
+    </span> It's a draw <span><img src="../images/game-draw.png" alt="game draw" width="48" height="48"/></span>
     </p>
     `;
   }
