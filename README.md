@@ -16,7 +16,7 @@ The game over section shows congratulatory message for the winner or a draw mess
 * Play the game between two players.
 * Set custom player names.
 * Mark a symbol on the game board.
-* Restart the game and play again.
+* Restart the game to play again.
 
 # 📷 Screenshots
 
