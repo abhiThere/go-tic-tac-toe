@@ -47,6 +47,9 @@ This web app is developed using HTML, CSS and JavaScript. It provides a nice use
 # 📝 Acknowledgements
 
 * [GitHub Pages](https://pages.github.com)
+* [Font Awesome](https://fontawesome.com)
+* [flaticon](https://www.flaticon.com/)
+* [favicon.io](https://favicon.io/)
 
 <!-- REFERENCE VARIABLES -->
 [html-shield]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
