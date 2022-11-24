@@ -11,7 +11,7 @@ The game is played between two players. Each player will get their symbol that i
 The game players can set their names using the edit button. The player names are reflected in the respective cards.
 To start the game, the "Start New Game" button has to be clicked. A text appears indicating the active player's turn. The players have to select a tile on the game board to mark their respective symbol at the time of their turn.
 The player is declared as winner upon getting matching symbols vertically, horizontally or diagonally. There can also be a draw when there are no matching symbols in any direction and all the tiles have been marked.
-The game over section shows congratulatory message for the winner or a draw message in case of a draw. The game can be restarted and played again any number of times.
+The game over section shows a congratulatory message for the winner or a draw message in case of a draw. The game can be restarted and played again any number of times.
 
 # 🎯 Features
 
