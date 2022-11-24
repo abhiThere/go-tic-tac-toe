@@ -22,6 +22,20 @@ The game over section shows congratulatory message for the winner or a draw mess
 
 # 📷 Screenshots
 
+![Game Configuration](https://user-images.githubusercontent.com/74660692/203707875-a7c3695a-c7db-4f9a-89fc-1f5d519437bb.png)
+
+
+![Player Name Modal](https://user-images.githubusercontent.com/74660692/203707921-cca9f2a8-0e3f-4b99-8cbc-0858908216ca.png)
+
+
+![Game Board](https://user-images.githubusercontent.com/74660692/203707962-01c83998-45ff-4ad2-b432-083e45db7fc7.png)
+
+
+![Winner Message](https://user-images.githubusercontent.com/74660692/203707978-ecdb030c-8cb1-46bd-b115-750af43c28c9.png)
+
+
+![Draw Message](https://user-images.githubusercontent.com/74660692/203708010-3e8f82da-9897-4884-a872-6679c9547a0c.png)
+
 # 👨‍💻 Built With
 
 This web app is developed using HTML, CSS and JavaScript. It provides a nice user interface to play the game from anywhere and anytime.
